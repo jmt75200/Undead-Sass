@@ -1,0 +1,39 @@
+/*Base font size
+Base font size: 16px, Droid Serif
+*/
+$base : 16px;
+$custom_font : "Droid Serif", serif;
+$align_center : center;
+
+/*Inline Media Queries*/
+/* Media Queries 
+small : max-width: 640px
+medium : min-width: 641px, max-width: 960px
+large : min-width: 961px
+*/
+
+$small-only : "only screen and (max-width:640px)";
+$medium-down : "only screen and (max-width:960px)";
+$medium-only : "only screen and (min-width:641px) and (max-width:960px)";
+$medium-up : "only screen and (min-width:641px)";
+$large-only : "only screen and (min-width:961px)";
+
+/*:: Colors ::
+- darkest color: #14273D //dark blue
+- medium color: #389FA8 //dark moderate cyan 
+- medium light color: #57C1C7 //minecraft diamond
+- light color: #EFF9EC //limegreen
+*/ 
+$dark_color : #14273D;
+$medium_color : #389FA8;
+$medium_light : #57C1C7;
+$light_color : #EFF9EC;
+
+/* :: Widths :: 
+max-width of content : 900px
+columns : 70%, 30%
+*/
+
+$maxed_wdth : 900px;
+$column_large : 70%;
+$column_small : 30%;

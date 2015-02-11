@@ -1,0 +1,6 @@
+@mixin header_font( $header_font_size, $header_line_height, $header_color, $header_bold ){
+  font-size: $header_font_size;
+  line-height: $header_line_height;
+  color: $header_color;
+  font-weight: $header_bold;
+}

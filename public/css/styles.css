@@ -55,7 +55,7 @@ max-width of content : 900px
 columns : 70%, 30%
 */
 html {
-  font-family: "Droid Serif", serif;
+  font-family: 'Droid Serif', serif;
   font-size: 16px;
   background: #fff; }
   @media only screen and (min-width:961px) {
@@ -63,7 +63,7 @@ html {
       background: #57C1C7; } }
 
 body {
-  max-width: 960px;
+  max-width: 900px;
   margin: auto;
   background: #EFF9EC; }
   @media only screen and (min-width:961px) {
@@ -111,24 +111,21 @@ a {
     text-decoration: none;
     border-bottom: 1px dashed #57C1C7; }
 
-ul.nav {
+.nav {
   padding: 15px;
   text-align: center;
   border-bottom: 1px solid #57C1C7; }
-  ul.nav li {
+  .nav li {
     display: inline-block;
     padding: 0 10px; }
   @media only screen and (max-width:640px) {
-    ul.nav {
+    .nav {
       display: none; } }
 
 .content {
   padding: 42px; }
   .content p {
     line-height: 1.743em; }
-  @media only screen and (max-width:640px) {
-    .content {
-      border-bottom: 1px solid #389FA8; } }
   @media only screen and (min-width:641px) {
     .content {
       padding: 40px; } }
@@ -165,6 +162,7 @@ aside {
         padding: 10px 20px; } }
 
 footer {
+  border-top: 1px solid #57C1C7;
   padding: 22px; }
   footer .right ul {
     text-align: center; }
@@ -174,9 +172,6 @@ footer {
   @media only screen and (max-width:960px) {
     footer .left {
       display: none; } }
-  @media only screen and (min-width:641px) {
-    footer {
-      border-top: 1px solid #57C1C7; } }
   @media only screen and (min-width:961px) {
     footer .right {
       float: left; }

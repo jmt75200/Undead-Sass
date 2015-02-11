@@ -3,7 +3,7 @@ Base font size: 16px, Droid Serif
 */
 $base : 16px;
 $custom_font : "Droid Serif", serif;
-$align_center : center;
+
 
 /*Inline Media Queries*/
 /* Media Queries 
@@ -34,6 +34,6 @@ max-width of content : 900px
 columns : 70%, 30%
 */
 
-$maxed_wdth : 900px;
+$maxed_wdth : 960px;
 $column_large : 70%;
 $column_small : 30%;
